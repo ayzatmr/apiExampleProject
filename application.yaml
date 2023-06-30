@@ -1,0 +1,18 @@
+profile:
+  active: dev
+  loadtest: false
+  strict_validation: true
+  dev:
+    url:
+      base: &BASE "https://api.dev.com/"
+      admin: !join [ *BASE, /admin/ ]
+      root: !join [ *BASE, /root/ ]
+    credentials:
+      root:
+        token: secret
+    headers:
+      auth:
+        accept: application/json
+        content-type: application/x-www-form-urlencoded
+      common:
+        content-type: application/json

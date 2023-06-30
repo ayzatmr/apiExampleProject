@@ -1,0 +1,7 @@
+pytest==7.0.1
+requests==2.27.1
+PyHamcrest==2.0.4
+allure-pytest==2.10.0
+schematics==2.1.1
+RandomWords==0.4.0
+locust==2.8.6
